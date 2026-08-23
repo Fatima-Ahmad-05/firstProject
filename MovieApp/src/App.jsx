@@ -1,6 +1,6 @@
 
 import './App.css'
-
+import '../components/MovieCard.jsx'
 function App() {
 
   return (<p>
