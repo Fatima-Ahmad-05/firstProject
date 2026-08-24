@@ -2,16 +2,17 @@
 import "./App.css";
 import Home from "./pages/Home";
 
+
 function App() {
 
   return (
    
-   <>
-    <Home />
+   <><h1>Movie</h1>
+   <Home />
   
   </>);
 }
 
 
 
-export default App
+export default App;

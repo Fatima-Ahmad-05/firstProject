@@ -1,8 +1,9 @@
 import MovieCard from "../components/MovieCard";
+import insideoutImg from "../images/insideOut.jpg";
 
 function Home(){
 const movies=[    //arrray of movies
-    {id:1,title:"Madagascar 3", release_date:2013},
+    {id:1,title:"Madagascar 3", release_date:2013,url:insideoutImg },
    {id:2,title:"Bolt", release_date:2013},
    {id:3,title:"Tinkerbell and the Secret of the Wings", release_date:2013},
    {id:4,title:"Tinkerbell and the Lost Treasure", release_date:2008},
@@ -15,10 +16,10 @@ const movies=[    //arrray of movies
   {id:11,title:"Spiderman into the Spiderverse", release_date:2013}
 ]
     return(
-        <div className="Home">
+        <div className="home">
             <div className="movies-grid">
         {movies.map((movie)=>(
-            <MovieCard  movie={movie} key={id}/>))}
+            <MovieCard  movie={movie} key={movie.id}/>))}
             </div>
         </div>
         
