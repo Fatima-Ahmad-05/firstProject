@@ -1,16 +1,17 @@
 
-import './App.css'
-import '../components/MovieCard.jsx'
+import "./App.css";
+import Home from "./pages/Home";
+
 function App() {
 
-  return (<p>
-    <h1>Hello</h1>
+  return (
    
-    <Display para1="hi"/></p>
-  );
+   <>
+    <Home />
+  
+  </>);
 }
-function Display({para1}){
-  return (<>{para1}</>);
-}
+
+
 
 export default App
