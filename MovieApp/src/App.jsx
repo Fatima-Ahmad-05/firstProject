@@ -6,8 +6,8 @@ import Home from "./pages/Home";
 function App() {
 
   return (
-   
-   <><h1>Movie</h1>
+    <>
+   <h1>Movie</h1>
    <Home />
   
   </>);

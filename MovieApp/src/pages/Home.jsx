@@ -1,5 +1,6 @@
 import MovieCard from "../components/MovieCard";
 
+
 import pussinboots from "../images/pussinboots.jpg";
 import planes from "../images/planes.jpg";
 import madagascar from "../images/madagascar.jpg";
@@ -47,10 +48,21 @@ import tinkerbell4 from "../images/tinkerbell4.jpg";
 import incredibles1 from "../images/incredibles1.jpg";
 import bolt from "../images/bolt.jpg";
 import insideOut from "../images/insideOut.jpg";
+import insideOut2 from "../images/insideOut2.jpg";
 import tinkerbell3 from "../images/tinkerbell3.jpg";
 import kungfupanda from "../images/kungfupanda.jpg";
 import tintin from "../images/tintin.jpg";
 import muInc from "../images/mu_inc.jpeg";
+
+
+import {useState} from "react";
+
+
+
+
+
+
+
 
 function Home(){
 const movies=[    //arrray of movies
@@ -62,7 +74,7 @@ const movies=[    //arrray of movies
   {id:6,title:"Toy Story", release_date:1995, url:toystory1},
   {id:7,title:"Toy Story 2", release_date:1999, url:toystory2},
   {id:8,title:"Bee Movie", release_date:2007, url:beemovie},
-  {id:9,title:"Inside Out 2", release_date:2024, url:null},
+  {id:9,title:"Inside Out 2", release_date:2024, url:insideOut2},
   {id:10,title:"Spider-Man: Into the Spider-Verse", release_date:2018, url:intospiderverse},
   {id:11,title:"A Bug's Life", release_date:1998, url:bugslife},
   {id:12,title:"Monsters University", release_date:2013, url:mu},
@@ -107,11 +119,32 @@ const movies=[    //arrray of movies
   {id:51,title:"The Adventures of Tintin", release_date:2011, url:tintin},
   {id:52,title:"Monsters, Inc.", release_date:2001, url:muInc},
 ]
+
+const[searchQuery ,setSearchQuery]= useState("");
+const handleSearch=(e)=> {
+    e.preventDefault();
+    alert(searchQuery);
+};
     return(
         <div className="home">
+
+<form className="search-form" onSubmit={handleSearch}  > 
+    <input className="search-input" type="text" placeholder="Search for Movies...."
+    
+    value={searchQuery}
+    onChange={
+        (e)=>setSearchQuery(e.target.value)
+    }
+
+    
+    ></input>
+     <button className="search-btn" type="submit-btn">Search</button></form>
+
+
+
             <div className="movies-grid">
         {movies.map((movie)=>(
-            <MovieCard  movie={movie} key={movie.id}/>))}
+            movie.title.toLowerCase().startsWith(searchQuery) &&<MovieCard  movie={movie} key={movie.id}/>))}
             </div>
         </div>
         
