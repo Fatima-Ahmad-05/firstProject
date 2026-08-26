@@ -13,7 +13,8 @@ function App() {
   return (
    <main className="main-content">
 <Routes>
-<Route path="/" element= {<Home />} />
+<Route path="/" element= {<Home />} />       {/* all routes as route tag within routes tags with 
+                                                 path and element  */}
 <Route path="/favourites" element= {<Favourites />} />
 <Route path="/disney" element={<Disney />}/>
 <Route path ="/pixar" element={<Pixar />}/>
