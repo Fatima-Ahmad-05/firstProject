@@ -1,6 +1,5 @@
 import MovieCard from "../components/MovieCard";
 
-
 import pussinboots from "../images/pussinboots.jpg";
 import planes from "../images/planes.jpg";
 import madagascar from "../images/madagascar.jpg";
@@ -118,12 +117,14 @@ const movies=[    //arrray of movies
   {id:50,title:"Kung Fu Panda", release_date:2008, url:kungfupanda},
   {id:51,title:"The Adventures of Tintin", release_date:2011, url:tintin},
   {id:52,title:"Monsters, Inc.", release_date:2001, url:muInc},
+  {id:53,title:"Incredibles",release_date:2008,url:incredibles1}
 ]
 
 const[searchQuery ,setSearchQuery]= useState("");
 const handleSearch=(e)=> {
-    e.preventDefault();
-    alert(searchQuery);
+    e.preventDefault(); //default was whenever submit or enter pressed after typing in an input field, the text disappeared
+    //prevent default means that the search text stayed after submitting form
+    alert(searchQuery);  
 };
     return(
         <div className="home">
