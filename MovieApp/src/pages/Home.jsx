@@ -1,3 +1,6 @@
+
+//Home page of the app
+
 import MovieCard from "../components/MovieCard";
 
 import pussinboots from "../images/pussinboots.jpg";

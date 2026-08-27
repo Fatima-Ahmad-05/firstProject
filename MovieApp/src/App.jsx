@@ -1,3 +1,6 @@
+   
+//main app page that shows up 
+
 
 import "./App.css";
 import Home from "./pages/Home";
@@ -6,12 +9,14 @@ import Dreamworks from "./pages/Dreamworks";
 import Pixar from "./pages/Pixar";
 import Disney from "./pages/Disney";
 import {Routes,Route} from "react-router-dom";
+import NavBar from "./components/NavBar";
 
 
 function App() {
 
-  return (
+  return (<div>
    <main className="main-content">
+    <NavBar/>
 <Routes>
 <Route path="/" element= {<Home />} />       {/* all routes as route tag within routes tags with 
                                                  path and element  */}
@@ -24,6 +29,7 @@ function App() {
 </Routes>
 
    </main>
+   </div>
   
   );
 }
