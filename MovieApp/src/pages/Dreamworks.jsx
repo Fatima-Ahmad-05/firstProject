@@ -1,7 +1,7 @@
-function DreamWorks(){
+function DreamWorks({name}){
     return(
         <>
-        <h1>Dreamworks</h1>
+        <h1>Dreamwork {name}</h1>
         </>
     );
 }

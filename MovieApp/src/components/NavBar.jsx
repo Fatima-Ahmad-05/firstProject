@@ -1,5 +1,6 @@
 
 import {Link} from "react-router-dom";
+import "../css/NavBar.css";
 
 function NavBar(){
     return(
@@ -10,8 +11,9 @@ function NavBar(){
     <Link to="/" > MovieApp</Link>
 </div>
 <div className="navBar-links">
-<Link to="/favourites" className="nav-link"> Favourites</Link>
+
 <Link to="/" className="nav-link">Home </Link>
+<Link to="/favourites" className="nav-link"> Favourites</Link>
 <Link to="/pixar" className="nav-link">Pixar </Link>
 <Link to="/disney" className="nav-link">Disney </Link>
 <Link to="/dreamworks" className="nav-link">Dreamworks </Link>

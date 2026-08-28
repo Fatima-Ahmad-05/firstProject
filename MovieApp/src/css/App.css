@@ -1,0 +1,17 @@
+.main-content{
+
+    background: #0a081f;
+    color:white;
+   margin:0;
+
+}
+div{ background: #0a081f;}
+.movies-grid{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+    align-items:center;
+}
+body{
+    margin:0;
+}

@@ -2,7 +2,7 @@
 //main app page that shows up 
 
 
-import "./App.css";
+import "./css/App.css";
 import Home from "./pages/Home";
 import Favourites from "./pages/Favourites";
 import Dreamworks from "./pages/Dreamworks";
@@ -23,7 +23,7 @@ function App() {
 <Route path="/favourites" element= {<Favourites />} />
 <Route path="/disney" element={<Disney />}/>
 <Route path ="/pixar" element={<Pixar />}/>
-<Route path="/dreamworks" element={<Dreamworks/>}/>
+<Route path="/dreamworks" element={<Dreamworks name="Best here"/>}/>
 
 
 </Routes>

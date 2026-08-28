@@ -1,6 +1,7 @@
 
 //Home page of the app
 
+import "../css/index.css";
 import MovieCard from "../components/MovieCard";
 
 import pussinboots from "../images/pussinboots.jpg";
@@ -62,10 +63,6 @@ import {useState} from "react";
 
 
 
-
-
-
-
 function Home(){
 const movies=[    //arrray of movies
   {id:1,title:"Inside Out", release_date:2015, url:insideOut},
@@ -105,7 +102,7 @@ const movies=[    //arrray of movies
   {id:35,title:"Sing 2", release_date:2021, url:sing2},
   {id:36,title:"Epic", release_date:2013, url:epic},
   {id:37,title:"Rio 2", release_date:2014, url:rio2},
-  {id:38,title:"Sing", release_date:2016, url:sing},
+  {id:38,title:"Sing", release_date:2016,url:sing},
   {id:39,title:"Encanto", release_date:2021, url:encanto},
   {id:40,title:"The Croods", release_date:2013, url:croods},
   {id:41,title:"Paddington 2", release_date:2017, url:paddington2},
