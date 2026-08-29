@@ -4,6 +4,7 @@
 import "../css/index.css";
 import MovieCard from "../components/MovieCard";
 
+import kungfupanda2 from "../images/kungfupanda2.jpg";
 import pussinboots from "../images/pussinboots.jpg";
 import planes from "../images/planes.jpg";
 import madagascar from "../images/madagascar.jpg";
@@ -119,7 +120,8 @@ const movies=[    //arrray of movies
   {id:51,title:"The Adventures of Tintin", release_date:2011, url:tintin},
   {id:52,title:"Monsters, Inc.", release_date:2001, url:muInc},
   {id:53,title:"Incredibles",release_date:2008,url:incredibles1},
-  {id:54, title:"Tinkerbell and the Legend of the Neverbeast",release_date:2014,url:tinkerbell6}
+  {id:54, title:"Tinkerbell and the Legend of the Neverbeast",release_date:2014,url:tinkerbell6},
+  {id:55, title: "Kungfu Panda 2",release_date:2011,url:kungfupanda2}
 ]
 
 const[searchQuery ,setSearchQuery]= useState("");
