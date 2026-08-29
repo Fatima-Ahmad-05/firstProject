@@ -58,6 +58,9 @@ import kungfupanda from "../images/kungfupanda.jpg";
 import tintin from "../images/tintin.jpg";
 import muInc from "../images/mu_inc.jpeg";
 import tinkerbell6 from "../images/tinkerbell6.jpg";
+import wildrobot from "../images/wildrobot.jpg";
+import wreckitralph2 from "../images/wreckitralph2.jpg";
+import storks from "../images/storks.jpg";
 
 
 import {useState} from "react";
@@ -121,7 +124,10 @@ const movies=[    //arrray of movies
   {id:52,title:"Monsters, Inc.", release_date:2001, url:muInc},
   {id:53,title:"Incredibles",release_date:2008,url:incredibles1},
   {id:54, title:"Tinkerbell and the Legend of the Neverbeast",release_date:2014,url:tinkerbell6},
-  {id:55, title: "Kungfu Panda 2",release_date:2011,url:kungfupanda2}
+  {id:55, title: "Kungfu Panda 2",release_date:2011,url:kungfupanda2},
+  {id:56,title:"Wild Robot",release_date:2024,url:wildrobot},
+  {id:57,title:"Ralph Wrecks the Internet",release_date:2018,url:wreckitralph2},
+  {id:58,title:"Storks",release_date:2016,url:storks}
 ]
 
 const[searchQuery ,setSearchQuery]= useState("");
