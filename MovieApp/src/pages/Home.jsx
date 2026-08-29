@@ -56,6 +56,7 @@ import tinkerbell3 from "../images/tinkerbell3.jpg";
 import kungfupanda from "../images/kungfupanda.jpg";
 import tintin from "../images/tintin.jpg";
 import muInc from "../images/mu_inc.jpeg";
+import tinkerbell6 from "../images/tinkerbell6.jpg";
 
 
 import {useState} from "react";
@@ -113,11 +114,12 @@ const movies=[    //arrray of movies
   {id:46,title:"Big Hero 6", release_date:2014, url:bighero6},
   {id:47,title:"Moana", release_date:2016, url:moana},
   {id:48,title:"The Incredibles", release_date:2004, url:incredibles1},
-  {id:49,title:"Tinker Bell & The Great Fairy Rescue", release_date:null, url:tinkerbell3},
+  {id:49,title:"Tinker Bell & the Great Fairy Rescue", release_date:2010, url:tinkerbell3},
   {id:50,title:"Kung Fu Panda", release_date:2008, url:kungfupanda},
   {id:51,title:"The Adventures of Tintin", release_date:2011, url:tintin},
   {id:52,title:"Monsters, Inc.", release_date:2001, url:muInc},
-  {id:53,title:"Incredibles",release_date:2008,url:incredibles1}
+  {id:53,title:"Incredibles",release_date:2008,url:incredibles1},
+  {id:54, title:"Tinkerbell and the Legend of the Neverbeast",release_date:2014,url:tinkerbell6}
 ]
 
 const[searchQuery ,setSearchQuery]= useState("");
