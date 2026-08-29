@@ -1,14 +1,46 @@
 .search-btn{
-    background-color: rgb(0, 145, 255);
+    background-color: rgb(39, 84, 161);
     font-weight: bold;
     border-radius: 15%;
     color:antiquewhite;
     
 }
+.search-input{
+    font-size: large;
+}
 .search-form{
     display:flex;
   
     justify-content:right;
-    padding:15px;
+    gap:10px;
+    padding:9px 20px 30px 20px;
 
+}
+
+
+.movie-info{
+display:flex;
+flex-direction:row;
+gap:10px;
+padding:10px 20px 40px 42px;
+
+}
+
+
+/*.Favourite-btn{
+    background: none;  removing the white square button bg by default
+    object-fit:contain;
+
+    
+   <!-- button className="Favourite-btn" onClick={OnFavClick}button-->
+}*/
+.movie-poster img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+gap:22px;
+    display: block;
+    
+
+   
 }

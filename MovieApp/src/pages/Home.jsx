@@ -113,7 +113,7 @@ const movies=[    //arrray of movies
   {id:46,title:"Big Hero 6", release_date:2014, url:bighero6},
   {id:47,title:"Moana", release_date:2016, url:moana},
   {id:48,title:"The Incredibles", release_date:2004, url:incredibles1},
-  {id:49,title:"Tinker Bell", release_date:null, url:tinkerbell3},
+  {id:49,title:"Tinker Bell & The Great Fairy Rescue", release_date:null, url:tinkerbell3},
   {id:50,title:"Kung Fu Panda", release_date:2008, url:kungfupanda},
   {id:51,title:"The Adventures of Tintin", release_date:2011, url:tintin},
   {id:52,title:"Monsters, Inc.", release_date:2001, url:muInc},

@@ -1,15 +1,23 @@
 .navBar-brand a{
     background-color:rgb(33, 50, 126);
-    text-decoration:none;
+text-decoration: none;
+
     color:white;
-    font-size:18px;
+    font-size:24px;
+}
+.navBar-brand {
+    background-color:rgb(33, 50, 126);
+text-decoration: none;
+
+    color:white;
+    font-size:24px;
 }
 
 .navBar-links a{
     color: aliceblue;
     background-color:rgb(33, 50, 126);
-    font-size:18px;
-    padding:20px;
+    font-size:24px;
+    padding:10px 20px 10px 20px;
 
 }
 nav{
