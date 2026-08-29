@@ -1,6 +1,7 @@
 
 import {Link} from "react-router-dom";
 import "../css/NavBar.css";
+import movieicon from "../../assets/movieicon.jpg";
 
 function NavBar(){
     return(
@@ -8,6 +9,7 @@ function NavBar(){
 <nav>
 
 <div className="navBar-brand">
+    <img src= {movieicon} alt="logo"/>
     <Link to="/" > MovieApp</Link>
 </div>
 <div className="navBar-links">

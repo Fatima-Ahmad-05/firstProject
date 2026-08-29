@@ -61,6 +61,7 @@ import tintin from "../images/tintin.jpg";
 import muInc from "../images/mu_inc.jpeg";
 import tinkerbell6 from "../images/tinkerbell6.jpg";
 import wildrobot from "../images/wildrobot.jpg";
+import turbo from "../images/turbo.jpg";
 import wreckitralph2 from "../images/wreckitralph2.jpg";
 import storks from "../images/storks.jpg";
 
@@ -131,7 +132,8 @@ const movies=[    //arrray of movies
   {id:57,title:"Ralph Wrecks the Internet",release_date:2018,url:wreckitralph2},
   {id:58,title:"Storks",release_date:2016,url:storks},
   {id:59,title:"Cars 2",release_date:2011,url:cars2},
-  {id:60,title:"Cars 3",release_date:2017,url:cars3}
+  {id:60,title:"Cars 3",release_date:2017,url:cars3},
+  {id:61,title:"Turbo",release_date:2013,url:turbo}
 ]
 
 const[searchQuery ,setSearchQuery]= useState("");
