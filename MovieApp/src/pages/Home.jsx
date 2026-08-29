@@ -4,6 +4,8 @@
 import "../css/index.css";
 import MovieCard from "../components/MovieCard";
 
+import cars3 from "../images/cars3.jpg";
+import cars2 from "../images/cars2.jpg";
 import kungfupanda2 from "../images/kungfupanda2.jpg";
 import pussinboots from "../images/pussinboots.jpg";
 import planes from "../images/planes.jpg";
@@ -99,7 +101,7 @@ const movies=[    //arrray of movies
   {id:27,title:"Spider-Man: Across the Spider-Verse", release_date:2023, url:acrossspiderverse},
   {id:28,title:"Rio", release_date:2011, url:rio},
   {id:29,title:"Home", release_date:2015, url:home},
-  {id:30,title:"Charlie", release_date:null, url:charlie},
+  {id:30,title:"Charlie & the Chocolate Factory", release_date:2005, url:charlie},
   {id:31,title:"Onward", release_date:2020, url:onward},
   {id:32,title:"Finding Nemo", release_date:2003, url:nemo},
   {id:33,title:"The Lego Movie 2: The Second Part", release_date:2019, url:legomovie2},
@@ -127,7 +129,9 @@ const movies=[    //arrray of movies
   {id:55, title: "Kungfu Panda 2",release_date:2011,url:kungfupanda2},
   {id:56,title:"Wild Robot",release_date:2024,url:wildrobot},
   {id:57,title:"Ralph Wrecks the Internet",release_date:2018,url:wreckitralph2},
-  {id:58,title:"Storks",release_date:2016,url:storks}
+  {id:58,title:"Storks",release_date:2016,url:storks},
+  {id:59,title:"Cars 2",release_date:2011,url:cars2},
+  {id:60,title:"Cars 3",release_date:2017,url:cars3}
 ]
 
 const[searchQuery ,setSearchQuery]= useState("");
